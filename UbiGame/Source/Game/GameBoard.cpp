@@ -37,9 +37,9 @@ GameBoard::~GameBoard()
 
 void GameBoard::Update()
 {	
-	int y1 = rand() % 1000;
-	int y2 = rand() % 1000;
-	int y3 = rand() % 1000;
+	int y1 = rand() % 700 + 150;
+	int y2 = rand() % 700 + 150;
+	int y3 = rand() % 700 + 150;
 
 	float dt2 = GameEngine::GameEngineMain::GetTimeDelta();
 	sf::Vector2f wantObsVel = sf::Vector2f(0.f, 0.f);
@@ -87,6 +87,13 @@ void GameBoard::Update()
 		obstacle3->SetPos(sf::Vector2f(2400.f, y3));
 		is_end3 = true;
 	}
+	
+	sf::Vector2f playerPosi = m_player->GetPos();
+	if (playerPosi.x <= 0)
+	{
+		exit(0);
+	}
+		
 		
 }
 
@@ -98,8 +105,7 @@ void GameBoard::CreatePlayer()
 	m_player->SetPos(sf::Vector2f(300.f, 500.f));
 	m_player->SetSize(sf::Vector2f(52.f, 62.f));
 
-	GameEngine::SpriteRenderComponent* spriterender = static_cast<GameEngine::SpriteRenderComponent
-		*>(m_player->AddComponent<GameEngine::SpriteRenderComponent>());
+	GameEngine::SpriteRenderComponent* spriterender = static_cast<GameEngine::SpriteRenderComponent*>(m_player->AddComponent<GameEngine::SpriteRenderComponent>());
 
 	spriterender->SetFillColor(sf::Color::Transparent);
 	spriterender->SetTexture(GameEngine::eTexture::Player);
