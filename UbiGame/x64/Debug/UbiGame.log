@@ -1,29 +1,29 @@
 ﻿  GameBoard.cpp
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(100,41): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(100,41): warning C4244:         with
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(100,41): warning C4244:         [
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(100,41): warning C4244:             T=float
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(100,41): warning C4244:         ]
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(105,42): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(105,42): warning C4244:         with
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(105,42): warning C4244:         [
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(105,42): warning C4244:             T=float
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(105,42): warning C4244:         ]
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(110,42): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(110,42): warning C4244:         with
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(110,42): warning C4244:         [
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(110,42): warning C4244:             T=float
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(110,42): warning C4244:         ]
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(115,42): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(115,42): warning C4244:         with
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(115,42): warning C4244:         [
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(115,42): warning C4244:             T=float
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(115,42): warning C4244:         ]
+C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(102,41): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(102,41): warning C4244:         with
+C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(102,41): warning C4244:         [
+C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(102,41): warning C4244:             T=float
+C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(102,41): warning C4244:         ]
+C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(108,42): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(108,42): warning C4244:         with
+C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(108,42): warning C4244:         [
+C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(108,42): warning C4244:             T=float
+C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(108,42): warning C4244:         ]
+C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(114,42): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(114,42): warning C4244:         with
+C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(114,42): warning C4244:         [
+C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(114,42): warning C4244:             T=float
+C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(114,42): warning C4244:         ]
 C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(120,42): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
 C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(120,42): warning C4244:         with
 C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(120,42): warning C4244:         [
 C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(120,42): warning C4244:             T=float
 C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(120,42): warning C4244:         ]
+C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(126,42): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(126,42): warning C4244:         with
+C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(126,42): warning C4244:         [
+C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(126,42): warning C4244:             T=float
+C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(126,42): warning C4244:         ]
   UbiGame.vcxproj -> C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\x64\Debug\UbiGame.exe
   C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Resources\img\background.png
   C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Resources\img\Guard.png

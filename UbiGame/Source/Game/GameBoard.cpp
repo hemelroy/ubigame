@@ -6,6 +6,7 @@
 #include "GameEngine\EntitySystem\Components\SpriteRenderComponent.h"
 #include <GameEngine\EntitySystem\Components\CollidableComponent.h>
 #include <GameEngine\EntitySystem\Components\CollidablePhysicsComponent.h>
+#include <iostream>
 
 bool is_end = true;
 bool is_end2 = true;
@@ -13,8 +14,9 @@ bool is_end3 = true;
 bool is_end4 = true;
 bool is_end5 = true;
 float ObsVel, ObsVel2, ObsVel3, ObsVel4, ObsVel5;
+int score;
 
-
+using namespace std;
 using namespace Game;
 
 GameBoard::GameBoard() : m_player(nullptr)
@@ -99,31 +101,37 @@ void GameBoard::Update()
 	{
 		obstacle->SetPos(sf::Vector2f(2000.f, y1));
 		is_end = true; 
+		score++;
 	}
 	if (posi2.x < -200)
 	{
 		obstacle2->SetPos(sf::Vector2f(2200.f, y2));
 		is_end2 = true;
+		score++;
 	}
 	if (posi3.x < -200)
 	{
 		obstacle3->SetPos(sf::Vector2f(2400.f, y3));
 		is_end3 = true;
+		score++;
 	}
 	if (posi4.x < -200)
 	{
 		obstacle4->SetPos(sf::Vector2f(2600.f, y4));
 		is_end4 = true;
+		score++;
 	}
 	if (posi5.x < -200)
 	{
 		obstacle5->SetPos(sf::Vector2f(2800.f, y5));
 		is_end5 = true;
+		score++;
 	}
 	
 	sf::Vector2f playerPosi = m_player->GetPos();
 	if (playerPosi.x <= 0)
 	{
+		cout << score << " ";
 		exit(0);
 	}
 		
