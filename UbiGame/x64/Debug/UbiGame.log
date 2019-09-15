@@ -1,22 +1,23 @@
 ﻿  GameBoard.cpp
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(77,41): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(77,41): warning C4244:         with
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(77,41): warning C4244:         [
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(77,41): warning C4244:             T=float
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(77,41): warning C4244:         ]
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(82,42): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(82,42): warning C4244:         with
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(82,42): warning C4244:         [
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(82,42): warning C4244:             T=float
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(82,42): warning C4244:         ]
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(87,42): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(87,42): warning C4244:         with
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(87,42): warning C4244:         [
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(87,42): warning C4244:             T=float
-C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Source\Game\GameBoard.cpp(87,42): warning C4244:         ]
-  UbiGame.vcxproj -> C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\x64\Debug\UbiGame.exe
-  C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Resources\img\background.png
-  C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Resources\img\Obstacle.png
-  C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Resources\img\Player.png
-  C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\ubigame\UbiGame\Resources\img\Transparent.png
-  4 File(s) copied
+C:\Users\ayman\Desktop\Projects\HacktheNorth\ubigame\UbiGame\Source\Game\GameBoard.cpp(77,41): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\ayman\Desktop\Projects\HacktheNorth\ubigame\UbiGame\Source\Game\GameBoard.cpp(77,41): warning C4244:         with
+C:\Users\ayman\Desktop\Projects\HacktheNorth\ubigame\UbiGame\Source\Game\GameBoard.cpp(77,41): warning C4244:         [
+C:\Users\ayman\Desktop\Projects\HacktheNorth\ubigame\UbiGame\Source\Game\GameBoard.cpp(77,41): warning C4244:             T=float
+C:\Users\ayman\Desktop\Projects\HacktheNorth\ubigame\UbiGame\Source\Game\GameBoard.cpp(77,41): warning C4244:         ]
+C:\Users\ayman\Desktop\Projects\HacktheNorth\ubigame\UbiGame\Source\Game\GameBoard.cpp(82,42): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\ayman\Desktop\Projects\HacktheNorth\ubigame\UbiGame\Source\Game\GameBoard.cpp(82,42): warning C4244:         with
+C:\Users\ayman\Desktop\Projects\HacktheNorth\ubigame\UbiGame\Source\Game\GameBoard.cpp(82,42): warning C4244:         [
+C:\Users\ayman\Desktop\Projects\HacktheNorth\ubigame\UbiGame\Source\Game\GameBoard.cpp(82,42): warning C4244:             T=float
+C:\Users\ayman\Desktop\Projects\HacktheNorth\ubigame\UbiGame\Source\Game\GameBoard.cpp(82,42): warning C4244:         ]
+C:\Users\ayman\Desktop\Projects\HacktheNorth\ubigame\UbiGame\Source\Game\GameBoard.cpp(87,42): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\ayman\Desktop\Projects\HacktheNorth\ubigame\UbiGame\Source\Game\GameBoard.cpp(87,42): warning C4244:         with
+C:\Users\ayman\Desktop\Projects\HacktheNorth\ubigame\UbiGame\Source\Game\GameBoard.cpp(87,42): warning C4244:         [
+C:\Users\ayman\Desktop\Projects\HacktheNorth\ubigame\UbiGame\Source\Game\GameBoard.cpp(87,42): warning C4244:             T=float
+C:\Users\ayman\Desktop\Projects\HacktheNorth\ubigame\UbiGame\Source\Game\GameBoard.cpp(87,42): warning C4244:         ]
+  UbiGame.vcxproj -> C:\Users\ayman\Desktop\Projects\HacktheNorth\ubigame\x64\Debug\UbiGame.exe
+  C:\Users\ayman\Desktop\Projects\HacktheNorth\ubigame\UbiGame\Resources\img\background.png
+  C:\Users\ayman\Desktop\Projects\HacktheNorth\ubigame\UbiGame\Resources\img\Guard.png
+  C:\Users\ayman\Desktop\Projects\HacktheNorth\ubigame\UbiGame\Resources\img\Obstacle.png
+  C:\Users\ayman\Desktop\Projects\HacktheNorth\ubigame\UbiGame\Resources\img\Player.png
+  C:\Users\ayman\Desktop\Projects\HacktheNorth\ubigame\UbiGame\Resources\img\Transparent.png
+  5 File(s) copied

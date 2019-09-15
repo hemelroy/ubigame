@@ -103,7 +103,7 @@ void GameBoard::CreatePlayer()
 	GameEngine::GameEngineMain::GetInstance()->AddEntity(m_player);
 
 	m_player->SetPos(sf::Vector2f(300.f, 500.f));
-	m_player->SetSize(sf::Vector2f(52.f, 62.f));
+	m_player->SetSize(sf::Vector2f(78.f, 93.f));
 
 	GameEngine::SpriteRenderComponent* spriterender = static_cast<GameEngine::SpriteRenderComponent*>(m_player->AddComponent<GameEngine::SpriteRenderComponent>());
 
@@ -121,7 +121,7 @@ void GameBoard::CreateObstacle()
 	GameEngine::GameEngineMain::GetInstance()->AddEntity(obstacle);
 
 	obstacle->SetPos(sf::Vector2f(1800.f, 100.f));
-	obstacle->SetSize(sf::Vector2f(150.f, 150.f));
+	obstacle->SetSize(sf::Vector2f(104.f, 124.f));
 
 	//Render
 	GameEngine::SpriteRenderComponent* spriteRender = static_cast<GameEngine::SpriteRenderComponent*>
@@ -139,7 +139,7 @@ void GameBoard::CreateObstacle2()
 	GameEngine::GameEngineMain::GetInstance()->AddEntity(obstacle2);
 
 	obstacle2->SetPos(sf::Vector2f(2000.f, 600.f));
-	obstacle2->SetSize(sf::Vector2f(150.f, 150.f));
+	obstacle2->SetSize(sf::Vector2f(104.f, 124.f));
 
 	//Render
 	GameEngine::SpriteRenderComponent* spriteRender = static_cast<GameEngine::SpriteRenderComponent*>
@@ -157,7 +157,7 @@ void GameBoard::CreateObstacle3()
 	GameEngine::GameEngineMain::GetInstance()->AddEntity(obstacle3);
 
 	obstacle3->SetPos(sf::Vector2f(2200.f, 350.f));
-	obstacle3->SetSize(sf::Vector2f(150.f, 150.f));
+	obstacle3->SetSize(sf::Vector2f(104.f, 124.f));
 
 	//Render
 	GameEngine::SpriteRenderComponent* spriteRender = static_cast<GameEngine::SpriteRenderComponent*>
