@@ -10,7 +10,9 @@
 bool is_end = true;
 bool is_end2 = true;
 bool is_end3 = true;
-float ObsVel, ObsVel2, ObsVel3;
+bool is_end4 = true;
+bool is_end5 = true;
+float ObsVel, ObsVel2, ObsVel3, ObsVel4, ObsVel5;
 
 
 using namespace Game;
@@ -21,6 +23,8 @@ GameBoard::GameBoard() : m_player(nullptr)
 	CreateObstacle();
 	CreateObstacle2();
 	CreateObstacle3();
+	CreateObstacle4();
+	CreateObstacle5();
 	CreateBackground();
 	CreateBorderTop();
 	CreateBorderBot();
@@ -40,6 +44,8 @@ void GameBoard::Update()
 	int y1 = rand() % 700 + 150;
 	int y2 = rand() % 700 + 150;
 	int y3 = rand() % 700 + 150;
+	int y4 = rand() % 700 + 150;
+	int y5 = rand() % 700 + 150;
 
 	float dt2 = GameEngine::GameEngineMain::GetTimeDelta();
 	sf::Vector2f wantObsVel = sf::Vector2f(0.f, 0.f);
@@ -48,29 +54,46 @@ void GameBoard::Update()
 
 	if (is_end == true)
 	{
-		ObsVel = rand() % 500 + 200.f;
+		ObsVel = rand() % 400 + 200.f;
 		is_end = false;
 	}
 	if (is_end2 == true)
 	{
-		ObsVel2 = rand() % 500 + 200.f;
+		ObsVel2 = rand() % 400 + 200.f;
 		is_end2 = false;
 	}
 	if (is_end3 == true)
 	{
-		ObsVel3 = rand() % 500 + 200.f;
+		ObsVel3 = rand() % 400 + 200.f;
 		is_end3 = false;
 	}
+	if (is_end4 == true)
+	{
+		ObsVel4 = rand() % 400 + 200.f;
+		is_end4 = false;
+	}
+	if (is_end5 == true)
+	{
+		ObsVel5 = rand() % 400 + 200.f;
+		is_end5 = false;
+	}
+
 	wantObsVel.x -= ObsVel * dt2;
 	obstacle->SetPos(obstacle->GetPos() + wantObsVel);
 	wantObsVel.x -= ObsVel2 * dt2;
 	obstacle2->SetPos(obstacle2->GetPos() + wantObsVel);
 	wantObsVel.x -= ObsVel3 * dt2;
 	obstacle3->SetPos(obstacle3->GetPos() + wantObsVel);
+	wantObsVel.x -= ObsVel4 * dt2;
+	obstacle4->SetPos(obstacle4->GetPos() + wantObsVel);
+	wantObsVel.x -= ObsVel5 * dt2;
+	obstacle5->SetPos(obstacle5->GetPos() + wantObsVel);
 
 	sf::Vector2f posi = obstacle->GetPos();
 	sf::Vector2f posi2 = obstacle2->GetPos();
 	sf::Vector2f posi3 = obstacle3->GetPos();
+	sf::Vector2f posi4 = obstacle3->GetPos();
+	sf::Vector2f posi5 = obstacle3->GetPos();
 
 	if (posi.x < -200)
 	{
@@ -86,6 +109,16 @@ void GameBoard::Update()
 	{
 		obstacle3->SetPos(sf::Vector2f(2400.f, y3));
 		is_end3 = true;
+	}
+	if (posi4.x < -200)
+	{
+		obstacle4->SetPos(sf::Vector2f(2600.f, y4));
+		is_end4 = true;
+	}
+	if (posi5.x < -200)
+	{
+		obstacle5->SetPos(sf::Vector2f(2800.f, y5));
+		is_end5 = true;
 	}
 	
 	sf::Vector2f playerPosi = m_player->GetPos();
@@ -168,6 +201,45 @@ void GameBoard::CreateObstacle3()
 
 	obstacle3->AddComponent<GameEngine::CollidableComponent>();
 }
+
+
+void GameBoard::CreateObstacle4()
+{
+	obstacle4 = new GameEngine::Entity();
+	GameEngine::GameEngineMain::GetInstance()->AddEntity(obstacle4);
+
+	obstacle4->SetPos(sf::Vector2f(2200.f, 675.f));
+	obstacle4->SetSize(sf::Vector2f(104.f, 124.f));
+
+	//Render
+	GameEngine::SpriteRenderComponent* spriteRender = static_cast<GameEngine::SpriteRenderComponent*>
+		(obstacle4->AddComponent<GameEngine::SpriteRenderComponent>());
+
+	spriteRender->SetFillColor(sf::Color::Transparent);
+	spriteRender->SetTexture(GameEngine::eTexture::Obstacle);
+
+	obstacle4->AddComponent<GameEngine::CollidableComponent>();
+}
+
+
+void GameBoard::CreateObstacle5()
+{
+	obstacle5 = new GameEngine::Entity();
+	GameEngine::GameEngineMain::GetInstance()->AddEntity(obstacle5);
+
+	obstacle5->SetPos(sf::Vector2f(2200.f, 125.f));
+	obstacle5->SetSize(sf::Vector2f(104.f, 124.f));
+
+	//Render
+	GameEngine::SpriteRenderComponent* spriteRender = static_cast<GameEngine::SpriteRenderComponent*>
+		(obstacle5->AddComponent<GameEngine::SpriteRenderComponent>());
+
+	spriteRender->SetFillColor(sf::Color::Transparent);
+	spriteRender->SetTexture(GameEngine::eTexture::Obstacle);
+
+	obstacle5->AddComponent<GameEngine::CollidableComponent>();
+}
+
 
 void GameBoard::CreateBackground()
 {

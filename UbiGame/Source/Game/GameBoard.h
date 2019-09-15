@@ -24,6 +24,8 @@ namespace Game
 		void CreateObstacle();
 		void CreateObstacle2();
 		void CreateObstacle3();
+		void CreateObstacle4();
+		void CreateObstacle5();
 		void CreateBackground();
 		void CreateBorderTop();
 		void CreateBorderBot();
@@ -33,6 +35,8 @@ namespace Game
 		GameEngine::Entity* obstacle;
 		GameEngine::Entity* obstacle2;
 		GameEngine::Entity* obstacle3;
+		GameEngine::Entity* obstacle4;
+		GameEngine::Entity* obstacle5;
 		GameEngine::Entity* BorderTop;
 		GameEngine::Entity* BorderBot;
 		GameEngine::Entity* BorderLeft;
