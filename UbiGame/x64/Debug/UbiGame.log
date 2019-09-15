@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+﻿  UbiGame.vcxproj -> C:\Users\ayman\Desktop\Projects\HacktheNorth\htn2019-ubigame\x64\Debug\UbiGame.exe
+  C:\Users\ayman\Desktop\Projects\HacktheNorth\htn2019-ubigame\UbiGame\Resources\img\background.png
+  C:\Users\ayman\Desktop\Projects\HacktheNorth\htn2019-ubigame\UbiGame\Resources\img\Obstacle.png
+  C:\Users\ayman\Desktop\Projects\HacktheNorth\htn2019-ubigame\UbiGame\Resources\img\Player.png
+  C:\Users\ayman\Desktop\Projects\HacktheNorth\htn2019-ubigame\UbiGame\Resources\img\Transparent.png
+=======
+﻿  LINK : C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\htn2019-ubigame\x64\Debug\UbiGame.exe not found or not built by the last incremental link; performing full link
+x64\Debug\main.obj : warning LNK4042: object specified more than once; extras ignored
+  UbiGame.vcxproj -> C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\htn2019-ubigame\x64\Debug\UbiGame.exe
+  C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\htn2019-ubigame\UbiGame\Resources\img\background.png
+  C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\htn2019-ubigame\UbiGame\Resources\img\Obstacle.png
+  C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\htn2019-ubigame\UbiGame\Resources\img\Player.png
+  C:\Users\rishi\OneDrive\Desktop\Ubisoft Workshop\GitHub\htn2019-ubigame\UbiGame\Resources\img\Transparent.png
+>>>>>>> d59c825e61c230bb1a1cbb1fbbe450f04eb46e9b
+  4 File(s) copied
